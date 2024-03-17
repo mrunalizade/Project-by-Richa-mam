@@ -1,0 +1,34 @@
+.landing_container{
+    background-image: url('https://pristineparadise.in/wp-content/uploads/2017/05/romantic-rooftops-hero.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.landing_page{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    gap: 15px;
+}
+.landing_page h1{
+    font-size: 2.4rem;
+}
+
+.landing_page p{
+    font-size: 1.4rem;
+}
+.landing_btn{
+    padding: 14px 25px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: none;
+    color: white;
+    background-color: rgb(233, 126, 39);
+    cursor: pointer;
+}
